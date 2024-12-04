@@ -215,7 +215,7 @@ chatExe.makeView = function(){
   chatExe.dom.chatHeader = createElement('div','appHeader gradientBackground-Pattern', undefined, undefined);
   chatExe.dom.container.appendChild(chatExe.dom.chatHeader);
 
-  chatExe.dom.userName = createElement('div','chat-userName', undefined, "Erwin's Grumpy Cat");
+  chatExe.dom.userName = createElement('div','chat-userName', undefined, "BLOOPY'S GRUMPY CAT");
   chatExe.dom.chatHeader.appendChild(chatExe.dom.userName);
 
 

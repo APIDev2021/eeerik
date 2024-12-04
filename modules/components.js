@@ -36,7 +36,7 @@ var components = {};
 //   <div class="logo" id="OS-logo">
 //     <div id="OS-Icon"></div>
 //     <div class="mark" id="OS-mark">
-//       Erik Bernacchi
+//       Bloopy
 //     </div>
 //   </div>
 //
@@ -296,7 +296,7 @@ components.spacer = function(c){
 components.osHeaderTitle = function(container, type){
 
     var p = 'system';
-    var label = 'Erik Bernacchi'
+    var label = 'Bloopy'
 
     //Make dropdown container
     var menuListContainer = createElement('div','menuListContainer', undefined);
@@ -308,7 +308,7 @@ components.osHeaderTitle = function(container, type){
     container.appendChild(menuListContainer);
 
     //Make column header
-    var columnHeader = createElement('div','columnHeader', 'systemHeader', '<span id="systemHeader-mainLogo"></span>Erik Bernacchi');
+    var columnHeader = createElement('div','columnHeader', 'systemHeader', '<span id="systemHeader-mainLogo"></span>Bloopy');
 
     columnHeader.onclick = openOsMenu(columnHeader, p);
 

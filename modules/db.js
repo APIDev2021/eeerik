@@ -31,14 +31,11 @@
 
 var systemSharedDependencies = [];
 
-var systemDropdown = [['About Erik','openAbout'], ['Resume','openResume'], '-', ['Press','openPress'], '-',['Behance','linkTo'],['Dribbble','linkTo'],['Linkedin','linkTo'],['Instagram','linkTo'],['Em@il','sendEmail'],'-',['Shut Down...','shutDown']];
+var systemDropdown = [['TELEGRAM','openPress'],['TWITTER','linkTo'],'-',['Shut Down...','shutDown']];
 
 var OSDefaultMenu = {
-  'The Preposterous Web Portal of Erik Bernacchi' : [],
-  'File': [['Share on fb','shareFB'], ['share on twitter','shareTwitter'], '-',['Close Windows','closeWindows']],
-  'Go': [], //Populate later with loop
-  'View': [['Enter Full Screen','enterFullScreen'], ['Change Background','changeBackground']],
-  'Help': [['Report a bug...','reportBug']]
+  '' : [],
+  'SOCIAL MEDIA': [['TELEGRAM','shareFB'], ['TWITTER','shareTwitter'], '-',['Close Windows','closeWindows']]
 };
 
 
@@ -66,7 +63,7 @@ appMenuExe.menuActions.openResume = function(){
 
 
 appMenuExe.menuActions.openPress = function(){
-  window.open('press.html','_blank');
+  window.open('https://t.me/TerminalOfBloopy','_blank');
 }
 
 appMenuExe.menuActions.linkTo = function(n){
@@ -75,7 +72,7 @@ appMenuExe.menuActions.linkTo = function(n){
   var extension;
   switch (n) {
     case 'Behance':
-      extension = '.net'
+      extension = '.com'
       break;
     case 'Linkedin':
       extension = '.com/in'
@@ -156,13 +153,13 @@ appMenuExe.menuActions.shutDown = function(){
 
   appMenuExe.menuActions.shareFB = function(app){
     ga('send', 'event', 'Clicks', 'Share', 'Facebook');
-    window.open('https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=erik&u=https%3A%2F%2Feeerik.com','_blank');
+    window.open('https://t.me/TerminalOfBloopy','_blank');
   }
 
 
   appMenuExe.menuActions.shareTwitter = function(app){
     ga('send', 'event', 'Clicks', 'Share', 'Twitter');
-    window.open('http://twitter.com/share?text=This dude is crazy! Check out his portfolio&url=http://eeerik.com&hashtags=#crazy,amazingPortfolios,#erikbernacchi','_blank');
+    window.open('http://twitter.com/','_blank');
   }
   /////  /////  /////  /////  /////  /////  /////  /////  /////  /////
 
@@ -314,45 +311,7 @@ var hiddenApps = [
 /////////////////////////////////////////////////
 
   var apps = [
-    {
-      "info": {
-        "name": {
-          "full": "Portfolio",
-          "file": "MY_W0RK",
-          "id": "portfolio"
-        },
-        "description": "A wonderful orchestra of millions of colours",
-        "genre": "game",
-        "releaseDate": "2018-08-02T14:00:00.000Z",
-      },
-      "location":"desktop",
-      "root":"apps/Portfolio/",
-      "appearance": {
-        "color": "illegalBlack",
-        "size": {
-          "width": 744,
-          "height": 490,
-          "min": {
-            "width": 300,
-            "height": 200
-          }
-        },
-        "icon": "coso_icon.svg",
-        "splashScreen": "coso_splash.mp4"
-      },
-      "dependencies": {
-        "scripts": [
-          "app.js"
-        ],
-        "images": [
-          "projects/flask/flask.jpg",
-          "projects/ebay/ebay.jpg",
-          "projects/canberra/canberra.jpg",
-          "projects/wu/wu.jpg"
-        ],
-        "fonts": []
-      }
-    },
+   
     {
       "info": {
         "name": {
