@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>CatProfilePic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Busy" transform="translate(-764.000000, -670.000000)">
+            <g id="Group" transform="translate(764.000000, 670.000000)">
+                <g id="CatProfilePic">
+                    <rect id="Rectangle-4" fill="#FFF200" x="0" y="0" width="22" height="22"></rect>
+                    <g id="Face" transform="translate(0.000000, 3.000000)">
+                        <polygon id="Path-2" fill="#000000" points="11 13 13 11 9 11"></polygon>
+                        <path d="M6.5,13.5 L4.5,14.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                        <path d="M6.5,11.5 L3.5,11.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+                        <path d="M17.5,13.5 L15.5,14.5" id="Line" stroke="#000000" stroke-linecap="square" transform="translate(16.500000, 14.000000) scale(-1, 1) translate(-16.500000, -14.000000) "></path>
+                        <g id="Eyes" transform="translate(2.000000, 3.000000)">
+                            <path d="M17,3 L10,3 C10.2293824,4.54013889 11.4385845,5.74934102 12.9787234,5.9787234 C14.91172,6.26661652 16.7121069,4.93299662 17,3 Z M17.9890902,3.1473113 C17.6198393,5.62656735 15.3106681,7.33706448 12.8314121,6.96781358 C10.8560343,6.67360838 9.30511503,5.12268912 9.01090982,3.1473113 L8.84003367,2 L18,2 L17.9890902,3.1473113 Z" id="Rectangle" fill="#000000" fill-rule="nonzero"></path>
+                            <path d="M8,3 L1,3 C1.22938239,4.54013889 2.43858452,5.74934102 3.9787234,5.9787234 C5.91172003,6.26661652 7.71210689,4.93299662 8,3 Z M8.98909018,3.1473113 C8.61983928,5.62656735 6.31066815,7.33706448 3.8314121,6.96781358 C1.85603429,6.67360838 0.305115029,5.12268912 0.0109098221,3.1473113 L0.0109098221,2 L9.01090982,2 L8.98909018,3.1473113 Z" id="Rectangle" fill="#000000" fill-rule="nonzero"></path>
+                            <path d="M4,3 L8,3 L8,3 L8,3 C8,4.1045695 7.1045695,5 6,5 L6,5 L6,5 C4.8954305,5 4,4.1045695 4,3 L4,3 Z" id="Rectangle" fill="#000000"></path>
+                            <path d="M5,3 L7,3 L7,3 L7,3 C7,3.55228475 6.55228475,4 6,4 L6,4 L6,4 C5.44771525,4 5,3.55228475 5,3 L5,3 Z" id="Rectangle" fill="#FFF200"></path>
+                            <path d="M13,3 L17,3 L17,3 L17,3 C17,4.1045695 16.1045695,5 15,5 L15,5 L15,5 C13.8954305,5 13,4.1045695 13,3 L13,3 Z" id="Rectangle" fill="#000000"></path>
+                            <path d="M14,3 L16,3 L16,3 L16,3 C16,3.55228475 15.5522847,4 15,4 L15,4 L15,4 C14.4477153,4 14,3.55228475 14,3 L14,3 Z" id="Rectangle" fill="#FFF200"></path>
+                            <rect id="Rectangle-13" fill="#000000" x="9" y="0" width="1" height="2"></rect>
+                        </g>
+                        <path d="M18.5,11.5 L15.5,11.5" id="Line" stroke="#000000" stroke-linecap="square" transform="translate(17.000000, 11.500000) scale(-1, 1) translate(-17.000000, -11.500000) "></path>
+                        <polyline id="Oval-5" stroke="#000000" points="13.5 15.5 11 13.5 8.5 15.5"></polyline>
+                        <polyline id="Path-3" stroke="#000000" points="6.5 2.5 6.5 0 10.5 2.5 13.5 2.5 13.5 0 18 2.5 23 2.5"></polyline>
+                        <rect id="Rectangle-2" fill="#000000" x="0" y="2" width="11" height="1"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
