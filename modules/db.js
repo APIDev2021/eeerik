@@ -82,7 +82,7 @@ appMenuExe.menuActions.linkTo = function(n){
   }
   //Track Link
   ga('send', 'event', 'Clicks', 'link', n);
-  window.open('https://'+n + extension +'/erikbernacchi','_blank');
+  window.open('https://'+n + extension +'/bloopy_terminal','_blank');
 }
 
 
@@ -159,7 +159,7 @@ appMenuExe.menuActions.shutDown = function(){
 
   appMenuExe.menuActions.shareTwitter = function(app){
     ga('send', 'event', 'Clicks', 'Share', 'Twitter');
-    window.open('http://twitter.com/','_blank');
+    window.open('http://twitter.com/bloopy_terminal','_blank');
   }
   /////  /////  /////  /////  /////  /////  /////  /////  /////  /////
 
